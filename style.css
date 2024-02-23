@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-image: url(./images/mountains.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-size: 6rem;
+}
+
+.setting {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.setting .fa-cog {
+    font-size: 15rem;
+    color: white;
+}
+
+.setting-content input {
+    font-size: 4.5rem;
+    padding: .5rem 1.5rem;
+}
+
+.setting-content button {
+    font-size: 4.5rem;
+    padding: .5rem 1.5rem;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.setting-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.time-container {
+    display: flex;
+    gap: 20rem;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.time-container h2 {
+    text-align: center;
+}
+
+.time-container div {
+    font-size: 10rem;
+    color: #fff;
+}
